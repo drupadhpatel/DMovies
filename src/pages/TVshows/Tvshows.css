@@ -1,0 +1,98 @@
+.hero{
+    position: relative;
+}
+.banner-img{
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
+    position: relative;
+    border-radius: 0px 0px 20px 20px;
+}
+.hero-caption{
+    position: absolute;
+    top: 58%;
+    left: 3%;
+    max-width: 97%;
+}
+.hero-caption .hero-dis{
+    padding-left: 140px;
+}
+.hero-caption h1{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 52px;
+}
+.hero-caption p{
+    max-width: 700px;
+    font-size: 17px;
+
+}
+.hero-btn{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+    top: 71%;
+    left: 11%;
+}
+.hero-btn button{
+    align-items: center;
+}
+.hero-btn button img{
+    width: 45px;
+    margin-left: -16px;
+ }
+ .hero-btn button p{
+    font-size: x-large;
+    font-weight: 700;
+ }
+ .hero-btn .btn{
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 122px;
+    height: 67px;
+ }
+ .hero-btn .btn.dark{
+    color: #fff;
+    background: #6d6d6eb3;
+ }
+ .hero-btn .btn:hover{
+    background: #ffffffbf;
+ }
+ @media (max-width: 1000px) {
+    .hero-btn{
+        margin-bottom: 30px;
+    }
+    .hero-btn .btn{
+        width: 100px;
+        height: 60px;
+        padding: 8px 17px;
+    }
+ }
+ @media (max-width:800px) {
+    .hero-caption{
+        padding-left: 3%;
+    }
+    .hero-caption p{
+        font-size: 12px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+    .hero-btn .btn{
+        width: 100px;
+        height: 60px;
+        padding: 8px 14px;
+       
+    }
+    .hero-btn button p {
+        font-size: x-large;
+        font-weight: 700;
+        padding-top: 11px;
+    }
+    
+ }
