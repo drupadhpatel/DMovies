@@ -73,13 +73,16 @@
     width: 300px;
     height: 350px;
     background-color: rgb(20, 20, 20);
-    padding: 10px;
+    padding: 5px;
     border-radius: 20px;
     overflow: hidden; /* ✅ ensures image doesn’t overflow */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
+  }
+  .card:hover{
+    background-color: rgb(238, 235, 235);
   }
   
   .card img {
