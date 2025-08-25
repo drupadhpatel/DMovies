@@ -26,6 +26,7 @@ function App() {
     return unsubscribe();
   },[navigate, location.pathname])
   return (
+    
     <div>
       <Routes>
         <Route path='/' element={ <Home/>}/>
