@@ -19,17 +19,17 @@
     gap: 90px;
 }
 .nav-left img{ 
-    width: 170px;
-    height: 61px;
+        width: 138px;
+    height: 51px;
 }
 .nav-left ul{
     display: flex;
     list-style: none;
-    gap: 50px;
+    gap: 39px;
     
 }
 .nav-left ul li{
-    font-size: 23px;
+    font-size: 13px;
     cursor: pointer;
     padding: 5px;
     border-radius: 15px;
@@ -49,21 +49,10 @@
    
 }
 .nav-right .search img{
-    position: absolute;
+    
    
 }
-.nav-right .search input{
-    width: 245px;
-    height: 42px;
-    background: #4f4d4d;
-    outline: none;
-    border-radius: 30px;
-    border: none;
-    font-size: 22px;
-    color: aliceblue;
-    padding: 19px;
-    padding-left: 47px;
-}
+
 .nav-right .icons{
      cursor: pointer;
     
