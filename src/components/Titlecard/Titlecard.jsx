@@ -54,7 +54,7 @@ function Titlecard({title,category}) {
   } ,[])
 
   return(
-    <div className='tvcard'><h2>{title?title:"Popular on DMovies"}</h2>
+    <div className='tvcard'><h3>{title?title:"Popular on DMovies"}</h3>
     <div className='card-list' >
       {tvshow.map((card,index)=>{
          return <Link to={`/Tvplayer/${card.id}`} className='card' key={index}>

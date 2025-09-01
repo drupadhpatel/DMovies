@@ -49,7 +49,7 @@
    
 }
 .nav-right .search img{
-    
+   cursor: pointer; 
    
 }
 
@@ -58,7 +58,7 @@
     
 }
 .nav-right  img{
-   width: 40px; 
+   width: 32px; 
 
 }
 .nav-profile{
@@ -72,14 +72,14 @@
     padding: 5px;
   }
 .nav-profile img{
-    width: 34px;
+    width: 23px;
 }
 .dropdown{
     position: absolute;
     top: 120%;
     right: 1px;
     width: max-content;
-    padding: 13px 16px;
+    padding: 6px 4px;
     border-radius: 7px;
     background-color: rgb(76, 75, 75);
     z-index: 1;

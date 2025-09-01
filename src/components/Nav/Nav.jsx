@@ -33,7 +33,7 @@ function Nav() {
         <li>Browse by Language</li></ul></div>
         <div className='nav-right'>
           <div className="search">
-          <img src={search} alt="searchbar" className='sicons invert' onClick={()=>{navigate('/Searchbar')}} />
+          <img src={search} alt="searchbar" className='sicons invert' onClick={()=>{navigate('/Login')}} />
           </div>
           <img src={bell} alt='bell icon' className='icons invert'/>
           <div class="nav-profile-container">

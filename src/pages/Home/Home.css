@@ -38,23 +38,25 @@
 .hero-btn button img{
     width: 45px;
     margin-left: -16px;
+    margin-right: -2px;
  }
  .hero-btn button p{
     font-size: x-large;
     font-weight: 700;
  }
  .hero-btn .btn{
-    border: 0;
+      border: 0;
     outline: 0;
-    padding: 8px 20px;
-    display: inline-flex;
+    padding: 7px 20px;
+    display: inline-flex
+;
     font-size: 15px;
     font-weight: 600;
-    background-color: white;
+    background-color: #ffffffb0;
     border-radius: 5px;
     cursor: pointer;
-    width: 122px;
-    height: 67px;
+    width: 102px;
+    height: 53px;
  }
  .hero-btn .btn.dark{
     color: #fff;
